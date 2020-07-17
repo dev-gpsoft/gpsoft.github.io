@@ -926,13 +926,14 @@ hr {
 }
 
 .client-item-wrapper img {
-  opacity: 0.5;
+  opacity: 1;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-  filter: gray;
+  filter: grayscale(0%);
   transition: all .6s ease;
   -moz-transition: all .6s ease;
   -webkit-transition: all .6s ease;
+  cursor: pointer;
 }
 
 .client-item-wrapper:hover img {
