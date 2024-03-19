@@ -1,0 +1,18 @@
+User-agent: 008
+Disallow: /
+
+User-agent: SiteAuditBot
+Crawl-delay: 1
+Allow: /
+
+User-agent: Twitterbot
+Allow: /**
+
+User-agent: *
+allow: /*
+
+Disallow: /*/?*
+Crawl-delay: 20
+
+# Sitemap files
+Sitemap: https://www.gpsoft.in/sitemap.xml
